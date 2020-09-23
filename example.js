@@ -1,0 +1,4 @@
+const decodeBearerToken = require ('./src/index.js');
+const exampleToken = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZGNkx5dmdNbHQwdGVYcnc1MXM2UCIsInVzZXJuYW1lIjoianNhbGF6YXIiLCJwYXNzd29yZCI6IiQyYiQwNSR5dmJTNnpSSlptTlFVTzRZVXB6SDZ1OGV2NnguRGlSYmh3cEtZNy5lN1dIRG1zR3lBRXNBVyIsImlhdCI6MTYwMDUzMzM3MX0.yJXDGoEUh_9iMoYEkP4TcLi4P8En9xBk8tsRff5bthc';
+const token = decodeBearerToken(exampleToken);
+console.log(token);

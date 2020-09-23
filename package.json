@@ -1,0 +1,19 @@
+{
+  "name": "decodeBearerToken",
+  "version": "1.0.0",
+  "description": "Remove Word Bearer of an Bearer Token",
+  "main": "./src/index.js",
+  "scripts": {},
+  "keywords": [
+    "Bearer",
+    "Token",
+    "Decode",
+    "JavaScript"
+  ],
+  "author": "CgUzMaN",
+  "license": "MIT",
+  "bin": {
+    "decode-bearer-token": "./bin/global.js"
+  },
+  "preferGlobal": true
+}
