@@ -1,5 +1,5 @@
 {
-  "name": "decodeBearerToken",
+  "name": "decodebearertoken",
   "version": "1.0.0",
   "description": "Remove Word Bearer of an Bearer Token",
   "main": "./src/index.js",
@@ -10,10 +10,16 @@
     "Decode",
     "JavaScript"
   ],
-  "author": "CgUzMaN",
+  "author": "cguzman",
   "license": "MIT",
-  "bin": {
-    "decode-bearer-token": "./bin/global.js"
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calguzman/decode-bearer-token.git"
   },
-  "preferGlobal": true
+  "bugs": {
+    "url": "https://github.com/calguzman/decode-bearer-token/issues"
+  },
+  "homepage": "https://github.com/calguzman/decode-bearer-token#readme",
+  "dependencies": {}
 }
