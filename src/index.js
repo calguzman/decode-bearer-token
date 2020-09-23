@@ -1,5 +1,5 @@
 
-const decodeToken = (bearerToken) =>  {
+module.exports = (bearerToken) =>  {
   if(!bearerToken){
     throw new Error('The Token is Missing');
   }
@@ -8,7 +8,4 @@ const decodeToken = (bearerToken) =>  {
   }
   let token = bearerToken.replace('Bearer ','');
   return token;
-}
-module.exports = {
-  decodeToken
 }
