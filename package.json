@@ -1,6 +1,6 @@
 {
   "name": "decodebearertoken",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove Word Bearer of an Bearer Token",
   "main": "./src/index.js",
   "scripts": {},
